@@ -28,6 +28,7 @@ html, body {
 
     /* Set a specific height */
     min-height: 500px; 
+	
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -110,6 +111,7 @@ ul.breadcrumb {
     list-style: none;
     background-color: #eee;
     font-size: 17px;
+	text-align: center;
 }
 
 /* Display list items side by side */
@@ -147,7 +149,7 @@ ul.breadcrumb li a:hover {
 }
 
 .form{
-	padding: 50px;
+	padding: 40px;
 }
 
 
