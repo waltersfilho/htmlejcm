@@ -46,6 +46,10 @@ html, body {
   height:320px;
 }
 
+figcaption{
+	text-align:center;
+}
+
 
 body{
 	font-family: 'Zilla Slab', serif;
@@ -88,7 +92,18 @@ body{
 }
 
 
-.input-group { float: right; margin-top: 5px;}
+.input-group { 
+	float: right; 
+	margin-top: 5px;
+	
+}
+
+
+.input-group input{
+	border-radius: 4px;
+	border: 1px solid;
+}
+
 
 ul.breadcrumb {
     padding: 10px 16px;
@@ -141,3 +156,18 @@ ul.breadcrumb li a:hover {
     width: 100%;
 	border-radius: 4px;
 }
+
+textarea{
+	border: 1px solid;
+    width: 100%;
+	border-radius: 4px;
+	resize: none;
+}
+
+select{
+	border: 1px solid;
+    width: 100%;
+	border-radius: 4px;
+}
+	
+	
