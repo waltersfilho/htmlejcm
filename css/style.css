@@ -120,3 +120,24 @@ ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
+
+.rodape {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.form{
+	padding: 50px;
+}
+
+
+.form input {
+	border: 1px solid;
+    width: 100%;
+	border-radius: 4px;
+}
