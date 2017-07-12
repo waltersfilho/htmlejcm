@@ -171,5 +171,14 @@ select{
     width: 100%;
 	border-radius: 4px;
 }
+
+.inscricao{
+	text-align: center;
+}
+
+.inscricao input{
+	border: 1px solid;
+	border-radius: 4px;
+}
 	
 	
