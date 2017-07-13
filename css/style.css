@@ -87,8 +87,8 @@ textarea{
 }
 
 .thumb{
-	width: 100%;
-	height: 100%;
+	width: 300px;
+	max-height: 300px !important;
 }
 
 .black-background {background-color:#000000;}
