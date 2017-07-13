@@ -1,3 +1,5 @@
+
+
 html, body {
 	margin:0;
 	padding: 0;
@@ -36,11 +38,6 @@ textarea{
 	text-align: center;
 }
 
-.inscricao input{
-	border: 1px solid;
-	border-radius: 4px;
-}
-
 .navbar-inner {
     background: transparent;
     position: absolute;
@@ -63,12 +60,19 @@ textarea{
 	color: #d9534f;
 }
   
-#first {
+#first{
   position: relative;
   background-image: url(../img/inicio.jpg);
   background-size: cover;
   min-height: 100vh;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  margin: -5px -5px -5px -5px;
 }
+
 
 #h1first{
   position: absolute;
