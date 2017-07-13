@@ -4,77 +4,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Exercício 4 - Tema Livre - Instrumentos Musicais - Contato</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <nav class="menu">
-      <div class="container">
-		<ul>
-			<li><a href="index.html"> Inicio </a></li>
-			<li><a href="cordas.html"> Cordas </a</li>
-			<li><a href="sopro.html"> Sopro </a</li>
-			<li><a href="percussao.html"> Percussão </a</li>
-			<li><a href="contato.html"> Contato </a></li>
-			<li><h1 id="logo"> MusicPoint <small>Instrumentos Musicais</small></h1></li>
-			<li>
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Qual instrumento você procura?">
-					<span class="input-group-btn">
-						<button class="btn btn-default" type="button">Pesquisar!</button>
-					</span>
+    <nav class="navbar navbar-inverse navbar-static-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						MusicPoint
+					</a>
 				</div>
-			</li>
-		</ul>
-      </div>
-    </nav>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><i class="glyphicon glyphicon-home"> Inicio </i></a></li>
+						<li><a href="cordas.html"> Cordas </a</li>
+						<li><a href="sopro.html"> Sopro </a</li>
+						<li><a href="percussao.html"> Percussão </a</li>
+						<li class="active"><a href="contato.html"> Contato </a></li>					
+					</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Encontre">
+						</div>
+						<button type="submit" class="btn btn-default">Pesquisar</button>
+					</form>
+				</div>
+			 </div>
+	</nav>
 	
 	<h1 class="titulo"> Fale Conosco </h1>
 
-    <ul class="breadcrumb">
+    <ol class="breadcrumb">
       <li><a href="index.html">Inicio</a></li>
       <li class="active">Contato</li>
-    </ul>
+    </ol>
 
-    <div class="form">
-      <form>
-        <label for="nome"> Nome: </label>
-        <input type="text" id="name" name="name" required/><br>
-        <label for="email"> Email: </label>
-        <input type="email" id="email" name="email" required/><br>
-        <label for="assunto"> Assunto: </label>
-        <select>
-          <option>Selecione um assunto...</option>
-          <option value="aula">Aulas</option>
-          <option value="elogio">Elogios</option>
-          <option value="duvida">Dúvidas</option>
-          <option value="reclamacao">Reclamações</option>
-        </select><br>
-        <label for="mensagem"> Mensagem: </label>
-        <textarea id="mensagem" rows="10"></textarea><br>
-
-        <input type="submit" value="Enviar"/>
-        <input type="reset" value="Limpar"/>
-		
-		<div class="extras">
-			<p>
-				<strong> Email para contato: </strong><br>
-				<span> <a href="email:contato@musicpoint.com.br"> contato@musicpoint.com.br </a> </span>
-			</p>
-		</div>
-      </form>
-    </div>
-	
-	<div class="inscricao">
-		<div>
-			<p> Receba instrumentos selecionados e artigos do blog direto na sua caixa de entrada. </p>
-			<input type="text" class="form-control" placeholder="Seu email">
-			<span class="input-group-btn">
-				<button class="btn btn-default" type="button">Inscrever</button>
-			</span>
-        </div>
+	<div class="container-fluid">
+		<form>
+			<div class="form">
+				<div class="input-group">
+					<span class="input-group-addon" id="nome"><i class="glyphicon glyphicon-user"></i></span>
+					<input type="text" class="form-control" placeholder="Nome" aria-describedby="nome" required>
+				</div>
+				<div class="input-group">
+					<span class="input-group-addon" id="email"><i class="glyphicon glyphicon-envelope"></i></span>
+					<input type="text" class="form-control" placeholder="Email" aria-describedby="email" required>
+				</div>
+				<div class="form-group">
+				  <select class="form-control" id="assunto" required>
+					<option value="">Selecione um assunto...</option>
+					<option value="aulas">Aulas</option>
+					<option value="duvidas">Dúvidas</option>
+					<option value="reclamacoes">Reclamações</option>
+				  </select>
+				</div>
+				<div class="form-group">
+					<label for="comment">Mensagem:</label>
+					<textarea class="form-control" rows="5" id="mensagem" required></textarea>
+				</div>
+				<center><div class="btn-group" role="group" aria-label="...">
+				  <button type="submit" class="btn btn-primary black-background white">Enviar</button>
+				  <button type="reset" class="btn btn-default">Limpar</button>
+				</div></center>
+			</div>
+		</form>
+		<br>
+		<p>
+			<strong> Email para contato: </strong><br>
+			<span> <a href="email:contato@musicpoint.com.br"> contato@musicpoint.com.br </a> </span>
+		</p>
 	</div>
+		
+	<br>
+		
 
+	<div class="container-fluid">
+		<div class="inscricao">
+			<div>
+				<p> Receba instrumentos selecionados e artigos do blog direto na sua caixa de entrada. </p>
+				<input type="text" class="form-control" placeholder="Seu email">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button">Inscrever</button>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+	<br> 
+	
     <div class="rodape">
       <footer>
         <span> MusicPoint - Todos os direitos reservados. </span><br>
