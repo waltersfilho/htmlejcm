@@ -42,39 +42,42 @@
     </ol>
 
 	<div class="container-fluid">
-		<form>
-			<div class="form">
-				<div class="input-group">
-					<span class="input-group-addon" id="nome"><i class="glyphicon glyphicon-user"></i></span>
-					<input type="text" class="form-control" placeholder="Nome" aria-describedby="nome" required>
+		<div class="row">
+			<div class="col-md-6 col-xs-12">
+				<div class="form">
+					<form>
+						<div class="input-group">
+							<span class="input-group-addon" id="nome"><i class="glyphicon glyphicon-user"></i></span>
+							<input type="text" class="form-control" placeholder="Nome" aria-describedby="nome" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon" id="email"><i class="glyphicon glyphicon-envelope"></i></span>
+							<input type="text" class="form-control" placeholder="Email" aria-describedby="email" required>
+						</div>
+						<div class="form-group">
+						  <select class="form-control" id="assunto" required>
+							<option value="">Selecione um assunto...</option>
+							<option value="aulas">Aulas</option>
+							<option value="duvidas">Dúvidas</option>
+							<option value="reclamacoes">Reclamações</option>
+						  </select>
+						</div>
+						<div class="form-group">
+							<label for="comment">Mensagem:</label>
+							<textarea class="form-control" rows="5" id="mensagem" required></textarea>
+						</div>
+						<center><div class="btn-group" role="group" aria-label="...">
+						  <button type="submit" class="btn btn-primary black-background white">Enviar</button>
+						  <button type="reset" class="btn btn-default">Limpar</button>
+						</div></center>
+					</form>
 				</div>
-				<div class="input-group">
-					<span class="input-group-addon" id="email"><i class="glyphicon glyphicon-envelope"></i></span>
-					<input type="text" class="form-control" placeholder="Email" aria-describedby="email" required>
-				</div>
-				<div class="form-group">
-				  <select class="form-control" id="assunto" required>
-					<option value="">Selecione um assunto...</option>
-					<option value="aulas">Aulas</option>
-					<option value="duvidas">Dúvidas</option>
-					<option value="reclamacoes">Reclamações</option>
-				  </select>
-				</div>
-				<div class="form-group">
-					<label for="comment">Mensagem:</label>
-					<textarea class="form-control" rows="5" id="mensagem" required></textarea>
-				</div>
-				<center><div class="btn-group" role="group" aria-label="...">
-				  <button type="submit" class="btn btn-primary black-background white">Enviar</button>
-				  <button type="reset" class="btn btn-default">Limpar</button>
-				</div></center>
 			</div>
-		</form>
-		<br>
-		<p>
-			<strong> Email para contato: </strong><br>
-			<span> <a href="email:contato@musicpoint.com.br"> contato@musicpoint.com.br </a> </span>
-		</p>
+			<div class="col-md-6 col-xs-12">
+				<strong> Email para contato: </strong><br>
+				<span> <a href="email:contato@musicpoint.com.br"> contato@musicpoint.com.br </a> </span>
+			</div>
+		</div>
 	</div>
 		
 	<br>
