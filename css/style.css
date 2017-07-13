@@ -70,7 +70,7 @@ textarea{
   min-height: 100vh;
 }
 
-#h1first {
+#h1first{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -102,6 +102,10 @@ textarea{
     color: #ffffff;
     background-color: #d9534f;
     border-color: #000000; /*set the color you want here*/
+}
+
+.menu {
+  padding-top:40px;  
 }
 
 	

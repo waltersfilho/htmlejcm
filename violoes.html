@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Exercício 4 - Tema Livre - Instrumentos Musicais - Contato</title>
+    <title>Exercício 4 - Tema Livre - Instrumentos Musicais - Cordas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -30,10 +30,10 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 			<li><a href="index.html"><i class="glyphicon glyphicon-home red"> Inicio </i></a></li>
-			<li><a href="cordas.html"> Cordas </a</li>
+			<li class="active"><a href="cordas.html"> Cordas </a</li>
 			<li><a href="sopro.html"> Sopro </a</li>
 			<li><a href="percussao.html"> Percussão </a</li>
-			<li class="active"><a href="contato.html"> Contato </a></li>					
+			<li><a href="contato.html"> Contato </a></li>					
 		  </ul>
 		  <ul class="nav navbar-nav navbar-right">
 			<form class="navbar-form navbar-right" role="search">
@@ -49,55 +49,40 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	
-	<h1 class="titulo menu"> Fale Conosco </h1>
-
-    <ol class="breadcrumb">
+	<h1 class="titulo menu"> Violões </h1>
+	
+	<ol class="breadcrumb">
       <li><a href="index.html">Inicio</a></li>
-      <li class="active">Contato</li>
+	  <li><a href="../cordas.html">Cordas</a></li>
+      <li class="active">Violões</li>
     </ol>
-
+	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<div class="form">
-					<form>
-						<div class="input-group">
-							<span class="input-group-addon" id="nome"><i class="glyphicon glyphicon-user"></i></span>
-							<input type="text" class="form-control" placeholder="Nome" aria-describedby="nome" required>
-						</div>
-						<div class="input-group">
-							<span class="input-group-addon" id="email"><i class="glyphicon glyphicon-envelope"></i></span>
-							<input type="text" class="form-control" placeholder="Email" aria-describedby="email" required>
-						</div>
-						<div class="form-group">
-						  <select class="form-control" id="assunto" required>
-							<option value="">Selecione um assunto...</option>
-							<option value="aulas">Aulas</option>
-							<option value="duvidas">Dúvidas</option>
-							<option value="reclamacoes">Reclamações</option>
-						  </select>
-						</div>
-						<div class="form-group">
-							<label for="comment">Mensagem:</label>
-							<textarea class="form-control" rows="5" id="mensagem" required></textarea>
-						</div>
-						<center><div class="btn-group" role="group" aria-label="...">
-						  <button type="submit" class="btn btn-primary black-background white">Enviar</button>
-						  <button type="reset" class="btn btn-default">Limpar</button>
-						</div></center>
-					</form>
-				</div>
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<strong> Email para contato: </strong><br>
-				<span> <a href="email:contato@musicpoint.com.br" class="red"> contato@musicpoint.com.br </a> </span>
-			</div>
+		  <div class="col-xs-12 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img src="img/digiorgio.jpg" alt="Violão Digiorgio" class="thumb img-rounded">
+			</a>			
+		  </div>
+		  <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img src="img/gianinni.jpg" alt="Violão Gianinni" class="thumb img-rounded">
+			</a>			
+		  </div>
+		  <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img src="img/digiorgio.jpg" alt="Violão Digiorgio">
+			</a>			
+		  </div>
+		  <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img src="img/digiorgio.jpg" alt="Violão Digiorgio">
+			</a>			
+		  </div>
 		</div>
 	</div>
-		
-	<br>
-		
 
+    
 	<div class="container-fluid">
 		<div class="inscricao">
 			<p> Receba instrumentos selecionados e artigos do blog direto na sua caixa de entrada. </p>
@@ -109,9 +94,9 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<br> 
-	
+
     <div class="rodape">
       <footer>
         <span> MusicPoint - Todos os direitos reservados. </span><br>
