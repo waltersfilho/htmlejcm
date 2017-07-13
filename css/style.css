@@ -58,6 +58,10 @@ textarea{
 .breadcrumb{
 	text-align:center;
 }
+
+.breadcrumb a{
+	color: #d9534f;
+}
   
 #first {
   position: relative;
@@ -85,5 +89,20 @@ textarea{
 
 .black-background {background-color:#000000;}
 .white {color:#ffffff;}
+
+.red{
+    color: #d9534f;
+}
+
+.active a{
+    color: #d9534f !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #d9534f;
+    border-color: #000000; /*set the color you want here*/
+}
+
 	
 	
