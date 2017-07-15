@@ -3,9 +3,11 @@ html, body {
 	padding: 0;
 }
 
-#index-body{
-	overflow-x: hidden;
+.home{
+	max-height: 100px !important;
 }
+
+
 
 .titulo{
 	text-align:center;
@@ -110,6 +112,6 @@ textarea{
   padding-top:40px;  
 }
 
-#header{
-	overflow:hidden;
+#index-body{
+	overflow-x: hidden;
 }
