@@ -112,6 +112,14 @@ textarea{
   padding-top:40px;  
 }
 
-#index-body{
-	overflow-x: hidden;
+
+
+#capitular:first-letter{
+	text-transform:uppercase;
+	font-size:32px;
+	line-height:20px;
+}
+
+.quem-somos{
+	text-align:center;
 }
