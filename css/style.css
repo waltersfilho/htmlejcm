@@ -87,7 +87,7 @@ textarea{
 }
 
 .thumb{
-	width: 300px;
+	min-width: 300px;
 	max-height: 225px !important;
 }
 
